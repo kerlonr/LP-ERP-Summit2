@@ -20,43 +20,40 @@
         }
 
         body {
-    width: 1024px;
-    /*height: 2274.36px;*/
-    overflow: auto;
-    font-family: "Montserrat", sans-serif;
-    color: rgb(51, 51, 51);
-    line-height: inherit;
-    font-size: 12px;
-    position: relative;
-    margin: auto;
-    display: grid
-;
-    place-self: stretch;
-    place-items: start;
-    grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
-    align-content: flex-start;
-    background-color: rgb(255, 255, 255);
-}
+            width: 1024px;
+            height: 2273.36px;
+            overflow: auto;
+            font-family: "Montserrat", sans-serif;
+            color: rgb(51, 51, 51);
+            line-height: inherit;
+            font-size: 12px;
+            position: relative;
+            margin: auto;
+            display: grid;
+            place-self: stretch;
+            place-items: start;
+            grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+            align-content: flex-start;
+            background-color: rgb(255, 255, 255);
+        }
 
         @media all {
-           body {
-    width: 1024px;
-    height: 2274.36px;
-    overflow: auto;
-    font-family: "Montserrat", sans-serif;
-    color: rgb(51, 51, 51);
-    line-height: inherit;
-    font-size: 12px;
-    position: relative;
-    margin: auto;
-    display: grid
-;
-    place-self: stretch;
-    place-items: start;
-    grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
-    align-content: flex-start;
-    background-color: rgb(255, 255, 255);
-}
+            body {
+                width: 1024px;
+                overflow: auto;
+                font-family: "Montserrat", sans-serif;
+                color: rgb(51, 51, 51);
+                line-height: inherit;
+                font-size: 12px;
+                position: relative;
+                margin: auto;
+                display: grid;
+                place-self: stretch;
+                place-items: start;
+                grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+                align-content: flex-start;
+                background-color: rgb(255, 255, 255);
+            }
 
             div[sylet-sequencial="1"] {
                 display: grid;
@@ -859,7 +856,7 @@
             form[sylet-sequencial="28"] {
                 place-content: space-between;
                 border-radius: 3px;
-                gap: 13px;
+                gap: 9px;
                 display: flex;
                 flex-flow: column wrap;
                 height: auto;
@@ -1115,15 +1112,16 @@
 <body>
     <div sylet-component="row" sylet-sequencial="1"><img
             onclick="window.open('https://www.tecnicon.com.br/', '_blank');" sylet-component="image"
-            sylet-sequencial="6" src="imagens/$2gh44oaxfed.png">
+            sylet-sequencial="6" src="https://d335luupugsy2.cloudfront.net/cms/files/75516/1652205542/$2gh44oaxfed">
     </div>
     <div sylet-component="row" sylet-sequencial="3"><img
             onclick="window.open('https://www.facebook.com/tecnicon', '_blank');" sylet-component="image"
-            sylet-sequencial="40" src="imagens/$3tu1x1h9s3l.png"><img
+            sylet-sequencial="40"
+            src="https://d335luupugsy2.cloudfront.net/cms/files/75516/1652205542/$3tu1x1h9s3l"><img
             onclick="window.open('https://www.instagram.com/vivatecnicon/', '_blank');" sylet-component="image"
-            sylet-sequencial="5" src="imagens/$q30zopvvi4m.png"><img
+            sylet-sequencial="5" src="https://d335luupugsy2.cloudfront.net/cms/files/75516/1652205542/$q30zopvvi4m"><img
             onclick="window.open('https://www.linkedin.com/company/tecnicon/', '_blank');" sylet-component="image"
-            sylet-sequencial="4" src="imagens/$xyg9boik5r8.png">
+            sylet-sequencial="4" src="https://d335luupugsy2.cloudfront.net/cms/files/75516/1652205542/$xyg9boik5r8">
     </div>
     <section sylet-component="section" sylet-sequencial="10">
         <p style="color: #f2f2f2;place-self: center; font-size:29px; text-align: center;">O <strong>TECNICON</strong>
@@ -1147,7 +1145,7 @@
             </span>
         </p>
         <p sylet-component="text" sylet-sequencial="7"><span sylet-id="m7ks5thg7b8grvwv2dw"><br>Cada um dos
-                nossos sistemas foi pensado para <span sylet-id="m7t4919uoi7bd9jmriq">simplificar </span>a sua
+                nossos sistemas foi pensado para<span sylet-id="m7t4919uoi7bd9jmriq">simplificar </span>a sua
                 rotina e impulsionar a eficiência da
                 sua operação!</span>
         </p>
@@ -1159,7 +1157,8 @@
 
             </span>
         </p>
-        <img class="imagem-box-formulario" src="imagens/$o25ii298a1.png">
+        <img class="imagem-box-formulario"
+            src="https://d335luupugsy2.cloudfront.net/cms/files/75516/1740136779/$o25ii298a1">
     </section>
     <section sylet-component="section" sylet-sequencial="12" class="">
         <div sylet-component="box" sylet-sequencial="9">
@@ -1244,6 +1243,18 @@
                     <div class="box-input" style="display: flex; flex-wrap: wrap; gap: 5px; height: max-content;">
                         <p class="name-label"
                             style="display: flex;font-size: 15px; align-items: center; gap: 2px; width: 100%; margin: 0px; color: rgb(255, 255, 255); font-family: Arial;">
+                            Agendar Horario
+                            <span class="view-field-required" style="color: rgb(255, 0, 0); display: block;">*</span>
+                        </p><input name="inp-form-SLEADAGENDAHORARIO" class="" maxlength="10"
+                            style="outline: none; padding: 0.5em 0.3em; border: 1px solid #ccc; border-radius: 3px; width: 100%; height: max-content;"
+                            type="number" required=""><t-autocomplete id="SLEADAGENDAHORARIO" tabela="CIDADE"
+                            campo="CCIDADE" descricao="CIDADE,UF" automatico="S" style="float: left;"
+                            classestilo="width-xx-grande-px" placeholder="Selecione..." aliastabela="CIDADE"
+                            required="true"></t-autocomplete>
+                    </div>
+                    <div class="box-input" style="display: flex; flex-wrap: wrap; gap: 5px; height: max-content;">
+                        <p class="name-label"
+                            style="display: flex;font-size: 15px; align-items: center; gap: 2px; width: 100%; margin: 0px; color: rgb(255, 255, 255); font-family: Arial;">
                             Validação Matemática <span class="view-field-required"
                                 style="color: rgb(255, 0, 0); display: block;">*</span></p><input
                             name="inp-form-INPUT12023722" class="" maxlength="100"
@@ -1283,12 +1294,15 @@
     <section sylet-component="section" sylet-sequencial="19" class="">
         <p sylet-component="text" sylet-sequencial="34" style="line-height: 51px;"><span
                 sylet-id="m7m7mo9fywzxl7d0es">CONFIRA ALGUNS PARCEIROS TECNICON</span></p>
-        <img sylet-component="image" sylet-sequencial="35" src="imagens/53024262722_64f63d5b35_o.png">
-        <img sylet-component="image" sylet-sequencial="31" src="imagens/53025014729_157c7051e8_o.png">
-        <img sylet-component="image" sylet-sequencial="32" src="imagens/53025014754_464c48124d_o.png">
+        <img sylet-component="image" sylet-sequencial="35"
+            src="https://live.staticflickr.com/65535/53024262722_64f63d5b35_o.png">
+        <img sylet-component="image" sylet-sequencial="31"
+            src="https://live.staticflickr.com/65535/53025014729_157c7051e8_o.png">
+        <img sylet-component="image" sylet-sequencial="32"
+            src="https://live.staticflickr.com/65535/53025014754_464c48124d_o.png">
     </section>
     <section sylet-component="section" sylet-sequencial="20"><img sylet-component="image" sylet-sequencial="22"
-            src="imagens/$9q235nl0ea.png">
+            src="https://d335luupugsy2.cloudfront.net/cms/files/75516/1740136779/$9q235nl0ea">
         <span sylet-id="m7t2pmc24kwez1ayztu">Há 35 anos, a
             TECNICON transforma o potencial de cada negócio em <strong style="font-weight: bold;">resultados
                 extraordinários.</strong><br><br>Desenvolvemos soluções completas de gestão que simplificam a vida dos
@@ -1300,7 +1314,7 @@
 
     <section sylet-component="section" sylet-sequencial="24"><img
             onclick="window.open('https://www.tecnicon.com.br/', '_blank');" sylet-component="image"
-            sylet-sequencial="2" src="imagens/$2gh44oaxfed.png">
+            sylet-sequencial="2" src="https://d335luupugsy2.cloudfront.net/cms/files/75516/1652205542/$n9a2llhg7u">
     </section>
 </body>
 
